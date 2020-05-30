@@ -268,6 +268,19 @@ border-color: rgb(59, 255, 0);</string>
       <string>Text Editor</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="btnRestorePass">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>490</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Restore Password</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

@@ -19,16 +19,19 @@ SOURCES += \
     TextFileOI.cpp \
     main.cpp \
     mainwindow.cpp \
+    restorepass.cpp \
     texteditor.cpp
 
 HEADERS += \
     EncryptEngine.h \
     TextFileOI.h \
     mainwindow.h \
+    restorepass.h \
     texteditor.h
 
 FORMS += \
     mainwindow.ui \
+    restorepass.ui \
     texteditor.ui
 
 # Default rules for deployment.

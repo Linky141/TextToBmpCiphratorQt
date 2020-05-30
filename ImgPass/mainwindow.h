@@ -30,6 +30,8 @@ private slots:
 
     void on_TextEditorOpenButton_clicked();
 
+    void on_btnRestorePass_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

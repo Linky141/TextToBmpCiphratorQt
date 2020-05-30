@@ -3,6 +3,7 @@
 #include "TextFileOI.h"
 #include "EncryptEngine.h"
 #include "texteditor.h"
+#include "restorepass.h"
 
 #include <QFileDialog>
 #include <QMessageBox>
@@ -236,4 +237,10 @@ void MainWindow::on_TextEditorOpenButton_clicked()
         ui->EncryptButton->setEnabled(true);
         ui->DecryptButton->setEnabled(false);
     }
+}
+
+void MainWindow::on_btnRestorePass_clicked()
+{
+    restorepass *window = new restorepass(this);
+    window->show();
 }
